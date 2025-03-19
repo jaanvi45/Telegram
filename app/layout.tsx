@@ -30,7 +30,7 @@ export default function RootLayout({
 						<main>{children}</main>
 					</ThemeProvider>
 				</body>
-			</html>
+		</html>
 		</AuthProvider>
 	);
 }
