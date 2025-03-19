@@ -26,7 +26,7 @@ export default function SignInButton({ botUsername }: { botUsername: string }) {
 		return (
 			<DropdownMenu>
 				<DropdownMenuTrigger asChild>
-					<div>
+					
 						<Avatar>
 							<AvatarImage
 								src={session.user?.image ?? "/default.webp"}
@@ -36,7 +36,7 @@ export default function SignInButton({ botUsername }: { botUsername: string }) {
 								{session.user?.name}
 							</AvatarFallback>
 						</Avatar>
-					</div>
+					
 				</DropdownMenuTrigger>
 				<DropdownMenuContent align="end" className="w-56">
 					<DropdownMenuLabel>{session.user?.name}</DropdownMenuLabel>
